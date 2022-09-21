@@ -2,8 +2,8 @@
 import Page from "../components/Page.astro";
 import SiteHeader from "../components/SiteHeader.astro";
 
-const title = "Tiny Rocket";
-const description = "A tiny Astro starter";
+const title = "Geaux Brand Strategy";
+const description = "Website and blog for the Brand Strategy Sprint with Scott Galloway and Section 4";
 ---
 
 <Page {title} {description}>
@@ -11,29 +11,20 @@ const description = "A tiny Astro starter";
 
     <div class="flex justify-center">
         <div class="text-lg w-5/6 lg:w-3/4">
-            <h1 class="my-6 font-semibold">
+            <h1 class="my-6 font-bold">
                 {description}
             </h1>
+            <img src="/public/assets/img/brandstrategysprint.png" alt="Brand Strategy Sprint" class="w-full" />
             <p class="my-6">
-                Tiny Rocket is an Astro theme / template. It is intended to be a
-                starter, so it is minimally styled. You can push the design as
-                far out as possible with <a
+                This website includes a blog that follows my experience with the Brand Strategy sprint and also my sprint workflow for getting things done. The site was built with the <a href="https://astro.buil">Astro framework</a> and styled with<a
                     href="https://tailwindcss.com/"
                     class="underline underline-offset-2">Tailwind CSS</a
                 >.
             </p>
             <p class="my-6">
-                Out of the box, Tiny Rocket includes site search, RSS feed, and
-                web map. See <a href="/doc" class="underline underline-offset-2"
-                    >documentation</a
-                >.
+                The site also includes a contact form so you can reach me, an about page to explain the purpose of this site, a sprint page that includes my sprint workflow and reflections, docs for technical documentation of the site, and finally, a blog.
             </p>
-            <p class="my-6">
-                Source is at <a
-                    href="https://github.com/slamethendry/tinyrocket"
-                    class="underline underline-offset-2">GitHub</a
-                >. MIT License.
-            </p>
+    
         </div>
     </div>
 </Page>

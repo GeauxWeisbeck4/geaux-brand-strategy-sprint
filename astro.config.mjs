@@ -7,7 +7,7 @@ import mdx from "@astrojs/mdx";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://tinyrocket.pages.dev',
+  site: 'https://geauxbrandstrategy.netlify.app',
   integrations: [preact(), tailwind(), sitemap(), mdx()],
   legacy: {
     astroFlavoredMarkdown: true
