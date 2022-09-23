@@ -1,6 +1,6 @@
 {
-    "name": "tinyrocket",
-    "version": "0.9.6",
+    "name": "geaux-brand-strategy-sprint",
+    "version": "1.0.0",
     "private": true,
     "scripts": {
         "dev": "astro dev",
@@ -18,7 +18,10 @@
     },
     "dependencies": {
         "@astrojs/rss": "^0.2.2",
+        "@storyblok/astro": "^1.0.1",
         "@tailwindcss/typography": "^0.5.7",
-        "preact": "^10.10.6"
+        "daisyui": "^2.31.0",
+        "preact": "^10.10.6",
+        "theme-change": "^2.2.0"
     }
 }
